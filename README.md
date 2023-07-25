@@ -7,3 +7,5 @@ This is inspirated by Mr. Sandhika Galih Yt : WPU
 <br>
 <br>
 Link : https://raturu0.github.io/Portofolio_with_tailwind/
+<br>
+documentation : https://tailwindcss.com/
