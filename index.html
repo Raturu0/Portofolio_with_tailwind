@@ -8,8 +8,42 @@
     <link rel="stylesheet" href="dist/output.css" />
   </head>
   <body>
+
+    <!-- NAVBAR -->
+<nav class="w-full h-auto bg-dark fixed z-10">
+  <div class="container mx-auto py-4 px-3 w-full h-auto md:py-0">
+    <div class="flex h-auto w-full">
+      <div class=" flex-0.5    md:p-0.5">
+        <img src="IMG/jnl edit.jpg" alt="" class="w-[80px] md:w-[70px] rounded-full">
+      </div>
+      <div class="  flex-1 flex justify-end">
+        <ul class="text-white text-center mx-5 md:flex md:items-center md:mx-0">
+          <li class="hover:text-primary hover:font-bold hover:bg-gray-300 md:py-4 md:rounded-lg md:px-3 md:transition-all duration-1000 lg:px-5 "><a href="#beranda" class=" ">Beranda</a></li>
+          <li class="hover:text-primary hover:font-bold hover:bg-gray-300 md:py-4 md:rounded-lg md:px-3 md:transition-all duration-1000 lg:px-5  "><a href="#tentangSaya" class="" >Tentang Saya</a></li>
+          <li class="hover:text-primary hover:font-bold hover:bg-gray-300 md:py-4 md:rounded-lg md:px-3 md:transition-all duration-1000 lg:px-5  "><a href="#portofolio" class="">Portofolio</a></li>
+        </ul>
+        <ul class="text-white  mr-5 text-center md:flex md:items-center md:mr-0">
+          <li class="hover:text-primary hover:font-bold hover:bg-gray-300 md:py-4 md:rounded-lg md:px-3 md:transition-all duration-1000 lg:px-5  "><a href="#bootcamp" class="">Bootcamp</a></li>
+          <li class="hover:text-primary hover:font-bold hover:bg-gray-300 md:py-4 md:rounded-lg md:px-3 md:transition-all duration-1000 lg:px-5  "><a href="#blog" class="">Blog</a></li>
+          <li class="hover:text-primary hover:font-bold hover:bg-gray-300 md:py-4 md:rounded-lg md:px-3 md:transition-all duration-1000 lg:px-5  "><a href="#contact" class="">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</nav>
+    <!-- NAVBAR END -->
+
+
+
+
+
+
+
+
+
     <!-- HERO SECTION -->
-    <section class="py-16 px-5">
+    <section class="pt-40 pb-24  " id="beranda">
       <div class="h-full md:grid md:grid-cols-2 md:mx-auto md:container">
         <div class="pt-5 pl-3 md:pt-36 mx-auto lg:max-w-md md:p-5">
           <h3 class="font-bold text-primary text-sm">Halo semua, saya</h3>
@@ -41,7 +75,7 @@
     <!-- AKHIR HERO SECTION -->
 
     <!-- ABOUT SECTION -->
-    <section class="mt-5 p-5">
+    <section class="mt-5 p-5" id="tentangSaya">
       <div class="max-w-md mx-auto md:max-w-none">
         <div class="container grid md:grid-cols-2 md:mx-auto">
           <div class="p-3 md:p-5 lg:max-w-md lg:mx-auto">
@@ -191,7 +225,7 @@
     <!-- ABOUT SECTION END -->
 
     <!-- PORTOFOLIO SECTION -->
-    <section class="h-auto bg-slate-100 pt-16">
+    <section class="h-auto bg-slate-100 pt-16" id="portofolio">
       <div class="container h-auto p-8 mx-auto">
         <!-- teks -->
         <div class="">
@@ -300,7 +334,7 @@
     <!-- PORTOFOLIO SECTION END -->
 
     <!-- BOOTCAMP SECTION -->
-    <section class="h-auto w-full bg-slate-800 p-5">
+    <section class="h-auto w-full bg-slate-800 p-5" id="bootcamp">
       <div class="container h-auto py-20 px-5 mx-auto">
         <!-- teks -->
         <div class="h-full pb-10">
@@ -352,7 +386,7 @@
     <!-- BOOTCAMP SECTION END -->
 
     <!-- BLOG SECTION -->
-    <section class="w-full h-auto p-3 bg-slate-200">
+    <section class="w-full h-auto p-3 bg-slate-200" id="blog">
       <div class="container h-full w-full pt-36 mx-auto">
         <!-- teks -->
         <div class="">
@@ -543,7 +577,7 @@
     <!-- BLOG SECTION END -->
 
     <!-- CONTACT SECTION -->
-    <section class="px-5 pt-36 pb-20 w-full h-auto">
+    <section class="px-5 pt-36 pb-20 w-full h-auto" id="contact">
       <div class="container w-full h-full md:max-w-2xl mx-auto">
         <!-- teks -->
         <div class="">
@@ -610,6 +644,8 @@
       </div>
     </section>
     <!-- CONTACT SECTION END -->
+
+    <!-- FOOTER -->
     <footer class="w-full h-auto bg-dark  ">
       <div
         class="container mx-auto w-full h-full pl-10 pr-5 md:px-16 lg:px-32  pt-20 pb-20 "
@@ -650,27 +686,28 @@
           <!-- tautan -->
           <div class="pb-14  text-slate-200 md:flex-1 md:text-center">
             <h1 class="text-white text-2xl font-bold pb-2">Tautan</h1>
-            <a href="#" class="hover:text-primary">
+            <a href="#beranda" class="hover:text-primary">
               <h4>Beranda</h4>
             </a>
-            <a href="#" class="hover:text-primary">
+            <a href="#tentangSaya" class="hover:text-primary">
               <h4>Tentang saya</h4>
             </a>
-            <a href="#" class="hover:text-primary">
+            <a href="#portofolio" class="hover:text-primary">
               <h4>Portofolio</h4>
             </a>
-            <a href="#" class="hover:text-primary">
+            <a href="#bootcamp" class="hover:text-primary">
               <h4>Bootcamp</h4>
             </a>
-            <a href="#" class="hover:text-primary">
+            <a href="#blog" class="hover:text-primary">
               <h4>Blog</h4>
             </a>
-            <a href="#">
+            <a href="#contact" class="hover:text-primary">
               <h4>Contact</h4>
             </a>
           </div>
         </div>
       </div>
     </footer>
+    <!-- FOOTER END -->
   </body>
 </html>
